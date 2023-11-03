@@ -13,8 +13,12 @@ img{
     border: 5px solid white;
 }
 #mid{
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    -ms-flex-flow: column;
+    -ms-flex-align: center;
+    text-align: center;
 }
