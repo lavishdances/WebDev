@@ -8,6 +8,7 @@ body{
 }
 #white{
     color: white;
+    text-align: center;
 }
 img{
     border: 5px solid white;
