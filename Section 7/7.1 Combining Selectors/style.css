@@ -3,6 +3,9 @@ h1,
 h2 {
     color: blueviolet;
 }
-.box p {
+.box > p {
     color: firebrick;
+}
+.box li {
+    color: blue;
 }
