@@ -9,3 +9,7 @@ h2 {
 .box li {
     color: blue;
 }
+ul.done{
+    font-size: .5rem;
+
+}
