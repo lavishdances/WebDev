@@ -9,7 +9,6 @@ h2 {
 .box li {
     color: blue;
 }
-ul > p{
+ul > p.done{
     font-size: .5rem;
-
 }
