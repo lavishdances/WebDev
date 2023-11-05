@@ -72,3 +72,37 @@ text-align: center;
   text-align: center;
 }
 }
+
+@media (max-width: 900px) and (min-width: 600px){
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo{
+    width: 75%;
+    height: 10%;
+  }
+  .card{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+    text-align: center;
+  }
+  .card-text{
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  }
+  .card-title{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  }
