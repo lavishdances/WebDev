@@ -7,7 +7,12 @@ body {
   min-height: 95vh;
 }
 .main {
-  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  gap: 1%;
 }
 
 h1 {
@@ -21,7 +26,49 @@ footer {
   color: midnightblue;
 }
 .card{
+  width: 48%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  gap: 2%;
+}
+img{
+  width: 75%;
+}
+.logo{
+  width: 16%;
+  height: 10%;
+}
+
+@media (max-width: 600px){
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.logo{
+  width: 75%;
+  height: 10%;
+}
+.card{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 2%;
+  text-align: center;
+}
+.card-text{
+align-content: center;
+justify-content: center;
+text-align: center;
+}
+.card-title{
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
 }
