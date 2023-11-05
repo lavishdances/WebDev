@@ -13,9 +13,37 @@ body {
 h1 {
   font-size: 5rem;
 }
-
+.create{
+  color: rgb(206, 165, 32);
+}
 footer {
   text-align: right;
   color: midnightblue;
 }
+.card-title{
+  float: right;
+}
+.card-text{
+  float: right;
+}
 
+@media (min-width: 1601px){
+  body{
+    background-color: seagreen;
+  }
+}
+@media (min-width: 1201px) and (max-width:1600px){
+  body{
+    background-color: limegreen;
+  }
+}
+@media (min-width: 481px) and (max-width:1200px){
+  body{
+    background-color: powderblue;
+  }
+}
+@media (min-width: 319px) and (max-width:480px){
+  body{
+    background-color: lightsalmon;
+  }
+}
