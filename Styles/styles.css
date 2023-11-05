@@ -4,3 +4,7 @@
     justify-content: center;
     gap: 3rem;
 }
+#main{
+    display: flex;
+    flex-direction: column;
+}
