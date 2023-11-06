@@ -12,24 +12,39 @@
     }
 
     /* Hint: What can you do with a media query and flexbox? */
-    @media (max-width: 900px) {
-      .pricing-container{
+    .pricing-container{
         display: flex;
-        flex-direction: column;
+        gap: 1rem;
+        flex-direction: row;
         justify-content: center;
       }
-      .pricing-plan{
+
+    .pricing-plan{
         flex: 1;
-        background-color: rgb(154, 156, 158);
+        background-color: rgb(178, 179, 180);
         justify-content: center;
       }
-    }
+    
     div > div > div{
       text-align: center;
     }
     .plan-features{
       text-align: center;
+      list-style-type: none;
     }
+    .plan-button{
+      justify-content: center;
+    }
+
+
+    @media (max-width: 900px) {
+      .pricing-container{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+      }
+  }
   </style>
 </head>
 
